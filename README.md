@@ -1,2 +1,2 @@
 # boilerplate
-quich access to common pre build code
+quick access to common pre build code
