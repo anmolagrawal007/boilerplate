@@ -2,3 +2,13 @@ spring.datasource.url=jdbc:mysql://localhost:3306/quiz
 spring.datasource.username=root
 spring.datasource.password=volkswagen
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+
+# Enable logging of SQL statements
+spring.jpa.show-sql=true
+
+# Format the SQL output for better readability
+spring.jpa.properties.hibernate.format_sql=true
+
+# Log parameters (values passed in queries)
+spring.jpa.properties.hibernate.type=trace
